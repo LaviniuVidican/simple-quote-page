@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 4rem;
+  padding-top: 1rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -23,11 +23,35 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-size: 1.2rem; 
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   font-style: italic;
+}
+
+@media (min-width: 768px){
+	.wrapper{
+		padding-top: 14rem;
+	}
+	.quote {
+		font-size: 1.8rem;
+	}
+	.author{
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 1280px){
+	.wrapper{
+		padding-top: 6rem;
+	}
+	.quote {
+		font-size: 2.5rem;
+	}
+	.author{
+		font-size: 1.5rem;
+	}
 }
